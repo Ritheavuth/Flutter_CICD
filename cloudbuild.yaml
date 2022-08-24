@@ -3,9 +3,9 @@
 steps:
 
 # clone the latest source codes 
-- name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://${_GIT_USERNAME}:${_GIT_PASSWORD}@bitbucket.org/${_ORG_NAME}/${_REPO_NAME}.git']
-  dir: '/workspace'
+# - name: 'gcr.io/cloud-builders/git'
+#   args: ['clone', 'https://${_GIT_USERNAME}:${_GIT_PASSWORD}@bitbucket.org/${_ORG_NAME}/${_REPO_NAME}.git']
+#   dir: '/workspace'
 
 # using flutter builder Docker image we have built previously to compile the repo
 - name: 'gcr.io/$PROJECT_ID/flutter'
