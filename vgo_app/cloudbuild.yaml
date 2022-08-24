@@ -1,0 +1,18 @@
+# Flutter CD configuration file with Cloud build
+
+steps:
+
+# clone the latest source codes 
+- name: 'gcr.io/cloud-builders/git'
+  args: ['clone', 'https://${_GIT_USERNAME}:${_GIT_PASSWORD}@bitbucket.org/${_ORG_NAME}/${_REPO_NAME}.git']
+  dir: '/workspace'
+
+# using flutter builder Docker image we have built previously to compile the repo
+- name: 'gcr.io/$PROJECT_ID/flutter'
+  entrypoint: '/bin/bash'
+  args: ['build.sh', '${_REPO_NAME}']
+
+# upload apk to google play store with Fastlane
+- name: 'gcr.io/$PROJECT_ID/fastlane'
+  args: ['supply', '--package_name','${_ANDROID_PACKAGE_NAME}', '--track', '${_ANDROID_RELEASE_CHANNEL}', '--json_key_data', '${_GOOGLE_PLAY_UPLOAD_KEY_JSON}', '--apk', '/workspace/${_REPO_NAME}/build/app/outputs/apk/release/app-release.apk']
+timeout: 1200s

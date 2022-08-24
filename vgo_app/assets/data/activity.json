@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Forest Zipline",
+    "description": "Have an exhilarating thrill Ziplining, it is safe and fun for children too.",
+    "rating": 4.5,
+    "image": "images/ziplining.jpg",
+    "videoId": "",
+    "priceDetails": ["15$/ time"]
+  },
+  {
+    "title": "Archery",
+    "description": "An arrow can only be shot by pulling it backward. When life is dragging you back with difficulties,it means it's going to launch you into something great. So just focus and keep aiming.",
+    "rating": 4.0,
+    "image": "images/archery.jpg",
+    "videoId": "",
+    "priceDetails": [
+      "$2 10 Arrow shoot",
+      "$15 Hrs (2 Bow and 10 Arrow)",
+      "$10 30 Minutes (2 Bow and 10 Arrows)"
+    ]
+  },
+  {
+    "title": "Horse Riding",
+    "description": "This is a great way to experience the spectacular scenery of Kirirom. Ninja and Cowboy costume also available.",
+    "rating": 4.0,
+    "image": "images/horse_riding.jpg",
+    "videoId": "",
+    "priceDetails": [
+      "Restaurant course 10$/15min",
+      "Resort course 15$/ 30min",
+      "Resort course 30$/hrs",
+      "Forest course 40$/ 1.5hrs"
+    ]
+  },
+  {
+    "title": "ATV/ QUAD ",
+    "description": "Go as long as you can and then go Further.",
+    "rating": 4.0,
+    "image": "images/atv.jpg",
+    "videoId": "",
+    "priceDetails": [
+      "$3/Short Round",
+      "$8/15 Min. ride",
+      "$15/30 Min",
+      "$20/ 1 Hrs",
+      "$50/ 4 hrs (Half Day)",
+      "$70/ Full day"
+    ]
+  },
+
+  {
+    "title": "Giant Bike",
+    "description": "Feel the rich nature of Kirirom with a pleasant bike stroll",
+    "rating": 4.0,
+    "image": "images/giant-bike.jpg",
+    "videoId": "",
+    "priceDetails": ["2$ 30mns", "6$ 3hrs", "12$ 24hrs"]
+  }
+]

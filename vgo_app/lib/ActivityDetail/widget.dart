@@ -1,0 +1,9 @@
+export 'package:vgo_app/ActivityDetail/widgets/point_view_widget.dart';
+export 'package:vgo_app/ActivityDetail/widgets/star_rating_widget.dart';
+export 'package:vgo_app/ActivityDetail/widgets/text_field_widget.dart';
+export 'package:vgo_app/ActivityDetail/widgets/video_widget.dart';
+export 'package:vgo_app/constants/palette.dart';
+export 'package:vgo_app/utility/buttom.dart';
+export 'package:vgo_app/utility/text_widget.dart';
+export 'package:vgo_app/ActivityDetail/widgets/points_getting_form.dart';
+export 'package:vgo_app/ActivtyMap/activty_map_screen.dart';

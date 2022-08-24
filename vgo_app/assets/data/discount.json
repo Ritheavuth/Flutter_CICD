@@ -1,0 +1,145 @@
+[
+  {
+    "pointToDiscount": 200,
+    "coupon": "Free Activity Coupon",
+    "description": "Get up to 10% for your next purchase!",
+    "activityCouldDiscounts": [
+      {
+        "image": "images/petanque.jpeg",
+        "activity": "Petanque"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Bull Machine"
+      },
+      {
+        "image": "images/wallclimbing.jpg",
+        "activity": "Wall Climbing"
+      },
+      {
+        "image": "images/camp-fire.jpeg",
+        "activity": "Campfire"
+      }
+    ]
+  },
+  {
+    "pointToDiscount": 100,
+    "coupon": "20%",
+    "description": "Get up to Free Activity Coupon for your next purchase!",
+    "activityCouldDiscounts": [
+      {
+        "image": "images/ziplining.jpg",
+        "activity": "Forest Zipline"
+      },
+      {
+        "image": "images/archery.jpg",
+        "activity": "Archery"
+      },
+      {
+        "image": "images/horse_riding.jpg",
+        "activity": "Horse Riding"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Table Tennis"
+      }
+    ]
+  },
+  {
+    "pointToDiscount": 75,
+    "coupon": "15%",
+    "description": "Get up to 20% for your next purchase!",
+    "activityCouldDiscounts": [
+      {
+        "image": "images/ziplining.jpg",
+        "activity": "Forest Zipline"
+      },
+      {
+        "image": "images/archery.jpg",
+        "activity": "Archery"
+      },
+      {
+        "image": "images/horse_riding.jpg",
+        "activity": "Horse Riding"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Table Tennis"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Football Court Use"
+      },
+      {
+        "image": "images/camp-fire.jpeg",
+        "activity": "Campfire"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Kirirom Organic Farm Trekking"
+      }
+    ]
+  },
+  {
+    "pointToDiscount": 50,
+    "coupon": "10%",
+    "description": "Get up to 15% for your next purchase!",
+    "activityCouldDiscounts": [
+      {
+        "image": "images/archery.jpg",
+        "activity": "Archery"
+      },
+      {
+        "image": "images/horse_riding.jpg",
+        "activity": "Horse Riding"
+      },
+      {
+        "image": "images/giant-bike.jpg",
+        "activity": "Giant bike/Kid bike"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Volleyball Court Use"
+      },
+      {
+        "image": "images/sabay-package.jpg",
+        "activity": "Sabay package(Only For Kids)"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Kirirom Organic Farm Trekking"
+      }
+    ]
+  },
+  {
+    "pointToDiscount": 25,
+    "coupon": "5%",
+    "description": "Get up to 10% for your next purchase!",
+    "activityCouldDiscounts": [
+      {
+        "image": "images/archery.jpg",
+        "activity": "Archery"
+      },
+      {
+        "image": "images/horse_riding.jpg",
+        "activity": "Horse Riding"
+      },
+      {
+        "image": "images/wallclimbing.jpg",
+        "activity": "Wall Climbing"
+      },
+      {
+        "image": "images/no-image.png",
+        "activity": "Volleyball Court Use"
+      },
+      {
+        "image": "images/ziplining.jpg",
+        "activity": "Forest Zipline"
+      },
+      {
+        "image": "images/sabay-package.jpg",
+        "activity": "Sabay package(Only For Kids)"
+      }
+    ]
+  }
+]
